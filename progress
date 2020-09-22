@@ -1,0 +1,28 @@
+ -- VERSION 1.0.0 --
+ 
+ 1. Button Start Game
+ 2. Generate question and 4 answers (select answer and return error if its wrong or success if its true)
+ 3. Leveling system (level up on correct answer, increase question level)
+ 4. Add jokers (only 1 - help from friend)
+ 
+ -- VERSION 1.0.0 --
+
+
+ -- VERSION 1.1.0 --
+
+ 1. Create Joker Class.
+    - JokerService
+
+ 2. Create connection in database.
+
+ 3. Create tables
+        a. questions
+          - id
+          - description (TEXT)
+          - correct_answer (CHART(1))
+          - answers (JSON)
+        b. jokers
+          - id
+          - name
+
+ -- VERSION 1.1.0 --

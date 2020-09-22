@@ -1,0 +1,17 @@
+{
+    "name": "nick90/game",
+    "description": "Game Description",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Nikolay Todev",
+            "email": "nikolay.todev@yahoo.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
